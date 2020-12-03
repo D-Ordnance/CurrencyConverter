@@ -3,14 +3,18 @@ package com.deeosoft.currencyconverter.custom
 import android.content.Context
 import android.graphics.Typeface
 import android.util.AttributeSet
-import android.widget.TextView
+import androidx.appcompat.widget.AppCompatTextView
 
-class cTextView(context: Context): TextView(context) {
+class CTextView: AppCompatTextView {
+
+    constructor(context: Context): super(context){
+        init()
+    }
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
         init()
     }
 
-    constructor(context: Context?, attrs: AttributeSet?, defStyle: Int): super(context, attrs, defStyle){
+    constructor(context: Context?, attrs: AttributeSet?, defStyle: Int): super(context!!, attrs, defStyle){
         init()
     }
 
