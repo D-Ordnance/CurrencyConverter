@@ -8,14 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#FFACACAC</color>
-    <color name="green">#FF00D998</color>
-    <color name="blue">#FF2084FF</color>
-    <color name="blue_1">#FF0063D8</color>
-    <color name="blue_2">#FF006DED</color>
-    <color name="blue_3">#FF0075FE</color>
+    <color name="green">#01B252</color>
+    <color name="blue">#185DFA</color>
+    <color name="blue_1">#0021AF</color>
+    <color name="blue_2">#012CEA</color>
+    <color name="blue_3">#185DFA</color>
     <color name="graph_blue">#FF3793FF</color>
     <color name="text_color">#FF878787</color>
     <color name="text_color_fade">#FFD3D3D3</color>
     <color name="edit_text_color">#FFA7A7A7</color>
     <color name="edit_text_bg_color">#FFFAFAFA</color>
+    <color name="currency_calculator_white">#FFFBFCFC</color>
 </resources>
